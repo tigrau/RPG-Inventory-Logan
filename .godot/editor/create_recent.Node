@@ -1,0 +1,5 @@
+MeshInstance3D
+Node
+Camera3D
+CollisionShape3D
+CharacterBody3D
