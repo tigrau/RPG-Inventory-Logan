@@ -1,18 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704829178
+::res://::1704832834
 icon.svg::CompressedTexture2D::3798357533854002136::1704809861::1704809865::1::::<><>::
 ::res://assets/::1704829178
 #1 - Transparent Icons.png::CompressedTexture2D::3271191457333264382::1704829176::1704829178::1::::<><>::
-::res://resources/::1704832831
-apple.tres::Resource/ItemData::8683815855417087079::1704831753::0::1::::<><>::res://scripts/castom_resources/item_date.gd<>uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
+::res://resources/::1704832834
 item_atlas.tres::AtlasTexture::167330938099140459::1704831744::0::1::::<><>::uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
-::res://resources/items/::1704832831
+::res://resources/items/::1704833436
+apple.tres::Resource/ItemData::8683815855417087079::1704831753::0::1::::<><>::res://scripts/castom_resources/item_date.gd<>uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
+blue_book.tres::Resource/ItemData::1607663105264953237::1704833436::0::1::::<><>::res://scripts/castom_resources/item_date.gd<>uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
 ::res://scenes/::1704812631
-::res://scenes/main/::1704831753
-main.tscn::PackedScene::8785154829792136816::1704831753::0::1::::<><>::uid://bttd8gd4yefio::::res://scenes/player/player.tscn
-::res://scenes/player/::1704821916
+::res://scenes/main/::1704833458
+main.tscn::PackedScene::8785154829792136816::1704833458::0::1::::<><>::uid://bttd8gd4yefio::::res://scenes/player/player.tscn
+::res://scenes/player/::1704833458
 player.gd::GDScript::-1::1704812471::0::1::::<>CharacterBody3D<>::
-player.tscn::PackedScene::3759473293444389810::1704821916::0::1::::<><>::res://scenes/player/player.gd
+player.tscn::PackedScene::3759473293444389810::1704833458::0::1::::<><>::res://scenes/player/player.gd
 ::res://scripts/::1704823046
 ::res://scripts/castom_resources/::1704824071
 inventory_data.gd::GDScript::-1::1704824071::0::1::::InventoryData<>Resource<>::
