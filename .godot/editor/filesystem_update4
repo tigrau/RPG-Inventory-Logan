@@ -3,3 +3,4 @@ res://scenes/main/main.tscn
 res://resources/items/item_date.gd
 res://scripts/castom_resources/inventory_data.gd
 res://scripts/castom_resources/slot_data.gd
+res://resources/item_atlas.tres
