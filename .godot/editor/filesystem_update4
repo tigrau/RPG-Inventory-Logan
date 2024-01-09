@@ -8,3 +8,4 @@ res://resources/apple.tres
 res://resources/items/blue_book.tres
 res://resources/inventory/test_inv.tres
 res://scenes/inventory/slot.tscn
+res://scenes/inventory/inventory.tscn
