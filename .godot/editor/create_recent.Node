@@ -1,3 +1,9 @@
+PanelContainer
+Label
+TextureRect
+MarginContainer
+Panel
+Control
 Sprite2D
 MeshInstance3D
 Node
