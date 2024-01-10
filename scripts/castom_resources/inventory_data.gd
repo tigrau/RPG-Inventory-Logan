@@ -1,4 +1,4 @@
 class_name InventoryData
 extends Resource
 
-@export var inventory : Array[SlotData]
+@export var slot_datas : Array[SlotData]

@@ -1,11 +1,9 @@
-res://scenes/player/player.tscn
 res://scenes/main/main.tscn
-res://resources/items/item_date.gd
-res://scripts/castom_resources/inventory_data.gd
-res://scripts/castom_resources/slot_data.gd
-res://resources/item_atlas.tres
-res://resources/apple.tres
+res://resources/items/apple.tres
 res://resources/items/blue_book.tres
 res://resources/inventory/test_inv.tres
+res://scenes/inventory/inventory.gd
 res://scenes/inventory/slot.tscn
 res://scenes/inventory/inventory.tscn
+res://scripts/castom_resources/inventory_data.gd
+res://scenes/inventory/slot.gd

@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://dxfuhmkc17ghk"]
+[gd_scene load_steps=8 format=3 uid="uid://dxfuhmkc17ghk"]
 
 [ext_resource type="PackedScene" uid="uid://bttd8gd4yefio" path="res://scenes/player/player.tscn" id="1_tuoea"]
+[ext_resource type="PackedScene" uid="uid://bikmtviby7kvb" path="res://scenes/inventory/inventory.tscn" id="2_drkrt"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_yyaxh"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -50,7 +51,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="PlayerInventory" type="PanelContainer" parent="UI/InventoryInterface"]
+[node name="PlayerInventory" parent="UI/InventoryInterface" instance=ExtResource("2_drkrt")]
 layout_mode = 0
 offset_left = 10.0
 offset_top = 10.0

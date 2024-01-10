@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704832834
+::res://::1704879029
 icon.svg::CompressedTexture2D::3798357533854002136::1704809861::1704809865::1::::<><>::
 ::res://assets/::1704829178
 #1 - Transparent Icons.png::CompressedTexture2D::3271191457333264382::1704829176::1704829178::1::::<><>::
@@ -8,14 +8,18 @@ item_atlas.tres::AtlasTexture::167330938099140459::1704831744::0::1::::<><>::uid
 ::res://resources/inventory/::1704835361
 test_inv.tres::Resource/InventoryData::6910065373304290465::1704835361::0::1::::<><>::res://scripts/castom_resources/inventory_data.gd<>uid://dvyrgcirryjvj::::res://resources/items/apple.tres<>res://scripts/castom_resources/slot_data.gd<>uid://w508g13inndt::::res://resources/items/blue_book.tres
 ::res://resources/items/::1704833436
-apple.tres::Resource/ItemData::8683815855417087079::1704831753::0::1::::<><>::res://scripts/castom_resources/item_date.gd<>uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
+apple.tres::Resource/Resource::8683815855417087079::1704831753::0::1::::<><>::res://scripts/castom_resources/item_date.gd<>uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
 blue_book.tres::Resource/ItemData::1607663105264953237::1704833436::0::1::::<><>::res://scripts/castom_resources/item_date.gd<>uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
-::res://scenes/::1704812631
-::res://scenes/main/::1704835381
-main.tscn::PackedScene::8785154829792136816::1704835381::0::1::::<><>::uid://bttd8gd4yefio::::res://scenes/player/player.tscn
-::res://scenes/player/::1704835381
+::res://scenes/::1704837057
+::res://scenes/inventory/::1704855081
+inventory.gd::GDScript::-1::1704855054::0::1::::<>PanelContainer<>::
+inventory.tscn::PackedScene::2969338859762914323::1704855081::0::1::::<><>::res://scenes/inventory/inventory.gd
+slot.tscn::PackedScene::730523681311707362::1704855055::0::1::::<><>::uid://bud7nnbpoe07u::::res://icon.svg
+::res://scenes/main/::1704855055
+main.tscn::PackedScene::8785154829792136816::1704855055::0::1::::<><>::uid://bttd8gd4yefio::::res://scenes/player/player.tscn<>uid://bikmtviby7kvb::::res://scenes/inventory/inventory.tscn
+::res://scenes/player/::1704844029
 player.gd::GDScript::-1::1704812471::0::1::::<>CharacterBody3D<>::
-player.tscn::PackedScene::3759473293444389810::1704835381::0::1::::<><>::res://scenes/player/player.gd
+player.tscn::PackedScene::3759473293444389810::1704844029::0::1::::<><>::res://scenes/player/player.gd
 ::res://scripts/::1704823046
 ::res://scripts/castom_resources/::1704835255
 inventory_data.gd::GDScript::-1::1704835255::0::1::::InventoryData<>Resource<>::
