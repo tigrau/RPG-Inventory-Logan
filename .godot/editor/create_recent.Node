@@ -1,10 +1,11 @@
+PanelContainer
+Control
+CanvasLayer
 GridContainer
 MarginContainer
-PanelContainer
 Label
 TextureRect
 Panel
-Control
 Sprite2D
 MeshInstance3D
 Node
