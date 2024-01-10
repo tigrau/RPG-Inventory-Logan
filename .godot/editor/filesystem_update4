@@ -8,3 +8,6 @@ res://scenes/inventory/inventory.tscn
 res://scripts/castom_resources/inventory_data.gd
 res://scenes/inventory/slot.gd
 res://scripts/castom_resources/slot_data.gd
+res://scenes/player/player.gd
+res://scenes/main/main.gd
+res://scenes/inventory/inventory_interface.gd
