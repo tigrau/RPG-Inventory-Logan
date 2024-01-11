@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://dxfuhmkc17ghk"]
+[gd_scene load_steps=12 format=3 uid="uid://dxfuhmkc17ghk"]
 
 [ext_resource type="Script" path="res://scenes/main/main.gd" id="1_e3atf"]
 [ext_resource type="PackedScene" uid="uid://bttd8gd4yefio" path="res://scenes/player/player.tscn" id="1_tuoea"]
 [ext_resource type="PackedScene" uid="uid://bikmtviby7kvb" path="res://scenes/inventory/inventory.tscn" id="2_drkrt"]
 [ext_resource type="Resource" uid="uid://c5pj1c2c62oqb" path="res://resources/inventory/test_inv.tres" id="2_pkmni"]
 [ext_resource type="Script" path="res://scenes/inventory/inventory_interface.gd" id="4_1xnsc"]
+[ext_resource type="PackedScene" uid="uid://kn4va0xa63go" path="res://scenes/inventory/slot.tscn" id="6_4x8yh"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_yyaxh"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -64,3 +65,11 @@ offset_left = 10.0
 offset_top = 10.0
 offset_right = 50.0
 offset_bottom = 50.0
+
+[node name="GrabbedSlot" parent="UI/InventoryInterface" instance=ExtResource("6_4x8yh")]
+visible = false
+modulate = Color(1, 1, 1, 0.490196)
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_right = 64.0
+offset_bottom = 64.0
