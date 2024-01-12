@@ -5,3 +5,6 @@ extends Resource
 @export_multiline var description: = "" 
 @export var stackable: bool = false
 @export var texture: AtlasTexture
+
+func use(target) -> void:
+	pass

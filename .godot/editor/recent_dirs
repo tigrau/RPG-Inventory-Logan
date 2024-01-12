@@ -1,8 +1,8 @@
+res://resources/items
 res://scenes/pick_up
 res://scenes/interactable
 res://scenes/inventory
 res://resources/inventory
-res://resources/items
 res://resources
 res://scenes/main
 res://scenes/player
