@@ -12,3 +12,5 @@ res://scripts/castom_resources/slot_data.gd
 res://scenes/player/player.tscn
 res://scenes/player/player.gd
 res://scenes/interactable/chest.tscn
+res://scenes/interactable/chest.gd
+res://scenes/main/main.gd
