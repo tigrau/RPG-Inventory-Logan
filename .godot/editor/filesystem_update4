@@ -7,3 +7,5 @@ res://scenes/inventory/slot.tscn
 res://scenes/inventory/inventory.tscn
 res://scenes/player/player.tscn
 res://scenes/interactable/chest.tscn
+res://scenes/inventory/inventory.gd
+res://scenes/main/main.gd
