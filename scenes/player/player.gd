@@ -60,4 +60,4 @@ func interact() -> void:
 	
 func get_drop_position() -> Vector3:
 	var direction = -camera.global_transform.basis.z
-	return camera.global_position + direction
+	return camera.global_position + direction * 2
