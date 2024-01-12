@@ -1,3 +1,7 @@
+Area3D
+CollisionShape3D
+Sprite3D
+RigidBody3D
 ColorRect
 MeshInstance3D
 StaticBody3D
@@ -9,7 +13,3 @@ GridContainer
 MarginContainer
 Label
 TextureRect
-Panel
-Sprite2D
-Node
-Camera3D

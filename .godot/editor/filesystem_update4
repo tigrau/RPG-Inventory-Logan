@@ -9,3 +9,4 @@ res://scenes/player/player.tscn
 res://scenes/interactable/chest.tscn
 res://scenes/inventory/inventory.gd
 res://scenes/main/main.gd
+res://scenes/pick_up/pick_up.tscn
