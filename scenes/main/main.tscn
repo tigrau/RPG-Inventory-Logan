@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dxfuhmkc17ghk"]
+[gd_scene load_steps=13 format=3 uid="uid://dxfuhmkc17ghk"]
 
 [ext_resource type="Script" path="res://scenes/main/main.gd" id="1_e3atf"]
 [ext_resource type="PackedScene" uid="uid://bttd8gd4yefio" path="res://scenes/player/player.tscn" id="1_tuoea"]
@@ -6,6 +6,7 @@
 [ext_resource type="Resource" uid="uid://c5pj1c2c62oqb" path="res://resources/inventory/test_inv.tres" id="2_pkmni"]
 [ext_resource type="Script" path="res://scenes/inventory/inventory_interface.gd" id="4_1xnsc"]
 [ext_resource type="PackedScene" uid="uid://kn4va0xa63go" path="res://scenes/inventory/slot.tscn" id="6_4x8yh"]
+[ext_resource type="PackedScene" uid="uid://cefkqnimvvn88" path="res://scenes/interactable/chest.tscn" id="7_hwat1"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_yyaxh"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -73,3 +74,6 @@ self_modulate = Color(1, 1, 1, 0)
 layout_mode = 0
 offset_right = 64.0
 offset_bottom = 64.0
+
+[node name="Chest" parent="." instance=ExtResource("7_hwat1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
