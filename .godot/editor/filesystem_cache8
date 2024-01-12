@@ -2,8 +2,8 @@ ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1705076338
 icon.svg::CompressedTexture2D::3798357533854002136::1704809861::1704809865::1::::<><>::
 README.md::TextFile::-1::1704931741::0::1::::<><>::
-::res://assets/::1704829178
-#1 - Transparent Icons.png::CompressedTexture2D::3271191457333264382::1704829176::1705086898::1::::<><>::
+::res://assets/::1705086898
+#1 - Transparent Icons.png::CompressedTexture2D::3271191457333264382::1704829176::1705089637::1::::<><>::
 ::res://resources/::1704835124
 item_atlas.tres::AtlasTexture::167330938099140459::1704831744::0::1::::<><>::uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
 ::res://resources/inventory/::1705078780
@@ -11,22 +11,25 @@ test_inv.tres::Resource/InventoryData::6910065373304290465::1705078780::0::1::::
 ::res://resources/items/::1705078780
 apple.tres::Resource/ItemData::8683815855417087079::1705078780::0::1::::<><>::res://scripts/castom_resources/item_date.gd<>uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
 blue_book.tres::Resource/ItemData::1607663105264953237::1705078780::0::1::::<><>::res://scripts/castom_resources/item_date.gd<>uid://bmuubsposvayg::::res://assets/#1 - Transparent Icons.png
-::res://scenes/::1705017228
-::res://scenes/interactable/::1705086360
+::res://scenes/::1705087082
+::res://scenes/interactable/::1705089626
 chest.gd::GDScript::-1::1705035926::0::1::::<>StaticBody3D<>::
-chest.tscn::PackedScene::5064555069074890415::1705086360::0::1::::<><>::res://scenes/interactable/chest.gd
-::res://scenes/inventory/::1705086360
+chest.tscn::PackedScene::5064555069074890415::1705089626::0::1::::<><>::res://scenes/interactable/chest.gd
+::res://scenes/inventory/::1705089626
 inventory.gd::GDScript::-1::1705083793::0::1::::<>PanelContainer<>::
-inventory.tscn::PackedScene::2969338859762914323::1705086360::0::1::::<><>::res://scenes/inventory/inventory.gd
+inventory.tscn::PackedScene::2969338859762914323::1705089626::0::1::::<><>::res://scenes/inventory/inventory.gd
 inventory_interface.gd::GDScript::-1::1705083744::0::1::::<>Control<>::
 slot.gd::GDScript::-1::1705006136::0::1::::<>PanelContainer<>::
-slot.tscn::PackedScene::730523681311707362::1705086360::0::1::::<><>::res://scenes/inventory/slot.gd
-::res://scenes/main/::1705086737
+slot.tscn::PackedScene::730523681311707362::1705089626::0::1::::<><>::res://scenes/inventory/slot.gd
+::res://scenes/main/::1705089626
 main.gd::GDScript::-1::1705085583::0::1::::<>Node<>::
-main.tscn::PackedScene::8785154829792136816::1705086737::0::1::::<><>::res://scenes/main/main.gd<>uid://bttd8gd4yefio::::res://scenes/player/player.tscn<>uid://bikmtviby7kvb::::res://scenes/inventory/inventory.tscn<>uid://c5pj1c2c62oqb::::res://resources/inventory/test_inv.tres<>res://scenes/inventory/inventory_interface.gd<>uid://kn4va0xa63go::::res://scenes/inventory/slot.tscn<>uid://cefkqnimvvn88::::res://scenes/interactable/chest.tscn<>res://scripts/castom_resources/inventory_data.gd<>uid://dvyrgcirryjvj::::res://resources/items/apple.tres<>res://scripts/castom_resources/slot_data.gd
-::res://scenes/player/::1705086360
+main.tscn::PackedScene::8785154829792136816::1705089626::0::1::::<><>::res://scenes/main/main.gd<>uid://bttd8gd4yefio::::res://scenes/player/player.tscn<>uid://bikmtviby7kvb::::res://scenes/inventory/inventory.tscn<>uid://c5pj1c2c62oqb::::res://resources/inventory/test_inv.tres<>res://scenes/inventory/inventory_interface.gd<>uid://kn4va0xa63go::::res://scenes/inventory/slot.tscn<>uid://cefkqnimvvn88::::res://scenes/interactable/chest.tscn<>res://scripts/castom_resources/inventory_data.gd<>uid://dvyrgcirryjvj::::res://resources/items/apple.tres<>res://scripts/castom_resources/slot_data.gd<>uid://bord8m60g61lt::::res://scenes/pick_up/pick_up.tscn
+::res://scenes/pick_up/::1705089626
+pick_up.tscn::PackedScene::3404400677936022697::1705089636::0::1::::<><>::res://scenes/pick_up/pick_up.gd<>uid://cnb6farupjwd::::res://resources/item_atlas.tres<>uid://w508g13inndt::::res://resources/items/blue_book.tres<>res://scripts/castom_resources/slot_data.gd
+pick_up.gd::GDScript::-1::1705089540::0::1::::<>RigidBody3D<>::
+::res://scenes/player/::1705089626
 player.gd::GDScript::-1::1705035763::0::1::::<>CharacterBody3D<>::
-player.tscn::PackedScene::3759473293444389810::1705086360::0::1::::<><>::res://scenes/player/player.gd
+player.tscn::PackedScene::3759473293444389810::1705089626::0::1::::<><>::res://scenes/player/player.gd
 ::res://scripts/::1704998458
 ::res://scripts/castom_resources/::1705012185
 inventory_data.gd::GDScript::-1::1705012185::0::1::::InventoryData<>Resource<>::

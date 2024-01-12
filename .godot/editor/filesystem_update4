@@ -10,3 +10,5 @@ res://scenes/interactable/chest.tscn
 res://scenes/inventory/inventory.gd
 res://scenes/main/main.gd
 res://scenes/pick_up/pick_up.tscn
+res://scenes/pick_up/pick_up.gd
+res://scripts/castom_resources/inventory_data.gd
