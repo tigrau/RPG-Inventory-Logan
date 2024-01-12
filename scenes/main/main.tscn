@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://dxfuhmkc17ghk"]
+[gd_scene load_steps=20 format=3 uid="uid://dxfuhmkc17ghk"]
 
 [ext_resource type="Script" path="res://scenes/main/main.gd" id="1_e3atf"]
 [ext_resource type="PackedScene" uid="uid://bttd8gd4yefio" path="res://scenes/player/player.tscn" id="1_tuoea"]
@@ -39,6 +39,11 @@ quantity = 1
 [sub_resource type="Resource" id="Resource_8rdyy"]
 script = ExtResource("8_72fj8")
 slot_datas = Array[ExtResource("10_0ca6y")]([SubResource("Resource_6oho0"), null, null, null, null])
+
+[sub_resource type="Resource" id="Resource_5c47t"]
+script = ExtResource("10_0ca6y")
+item_data = ExtResource("9_hhpni")
+quantity = 5
 
 [node name="Main" type="Node"]
 script = ExtResource("1_e3atf")
@@ -103,3 +108,4 @@ inventory_data = SubResource("Resource_8rdyy")
 
 [node name="PickUp" parent="." instance=ExtResource("11_fsgk6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.66085, -4.02873)
+slot_data = SubResource("Resource_5c47t")

@@ -1,14 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://bord8m60g61lt"]
+[gd_scene load_steps=4 format=3 uid="uid://bord8m60g61lt"]
 
 [ext_resource type="Script" path="res://scenes/pick_up/pick_up.gd" id="1_pus2q"]
 [ext_resource type="Texture2D" uid="uid://cnb6farupjwd" path="res://resources/item_atlas.tres" id="1_u378f"]
-[ext_resource type="Resource" uid="uid://w508g13inndt" path="res://resources/items/blue_book.tres" id="2_qgc2a"]
-[ext_resource type="Script" path="res://scripts/castom_resources/slot_data.gd" id="3_e6ute"]
-
-[sub_resource type="Resource" id="Resource_dwsya"]
-script = ExtResource("3_e6ute")
-item_data = ExtResource("2_qgc2a")
-quantity = 1
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_5772w"]
 radius = 0.305306
@@ -17,7 +10,6 @@ radius = 0.305306
 collision_layer = 0
 lock_rotation = true
 script = ExtResource("1_pus2q")
-slot_data = SubResource("Resource_dwsya")
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
