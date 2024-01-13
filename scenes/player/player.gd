@@ -9,11 +9,13 @@ const JUMP_VELOCITY = 4.5
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
+var health: int = 5
 
 @onready var camera: Camera3D = $Camera3D
 @onready var interact_ray: RayCast3D = $Camera3D/InteractRay
 
 func _ready() -> void:
+	PlayerManager.player = self
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 
@@ -61,3 +63,6 @@ func interact() -> void:
 func get_drop_position() -> Vector3:
 	var direction = -camera.global_transform.basis.z
 	return camera.global_position + direction * 2
+
+func heal(heal_value: int) -> void:
+	health += heal_value
