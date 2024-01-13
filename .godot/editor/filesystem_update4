@@ -17,3 +17,5 @@ res://scripts/castom_resources/item_date.gd
 res://scripts/castom_resources/item_data_consumable.gd
 res://resources/items/healt_potion.tres
 res://scenes/player/player_manager.gd
+res://resources/inventory/hot_bar_inventory.tscn
+res://resources/inventory/hot_bar_inventory.gd

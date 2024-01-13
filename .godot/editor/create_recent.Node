@@ -1,3 +1,6 @@
+HBoxContainer
+MarginContainer
+PanelContainer
 Area3D
 CollisionShape3D
 Sprite3D
@@ -6,10 +9,7 @@ ColorRect
 MeshInstance3D
 StaticBody3D
 RayCast3D
-PanelContainer
 Control
 CanvasLayer
 GridContainer
-MarginContainer
 Label
-TextureRect
